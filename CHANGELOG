@@ -1,0 +1,48 @@
+[devel]
+
+[0.1.9]
+Updated to use CoinMarketCap's new API.
+
+[0.1.8]
+Updated support:appcompat and support:design to 27.1.1.
+Fixed crash when opening settings on Android versions.
+
+[0.1.7]
+Potentially fixed crash when opening settings on some devices.
+
+[0.1.6]
+Updated to user new fixer.io api for prices.
+Fixed crash on minimize with coin select dialog open.
+
+[0.1.5]
+Updated bad CoinMarketCap image url.
+
+[0.1.4]
+Updated support:appcompat and support:design.
+Replaced Universal Image Loader with Glide.
+Added placeholder for missing coin images.
+Added temporary fix for missing coin images.
+
+[0.1.3]
+Upgraded AppCompat version to 27.0.2.
+Upgraded Gson to version 2.8.0.
+Upgraded Design to 27.0.2.
+Fixed a bug where updates would fail when a price was null.
+
+[0.1.2]
+Updated CoinMarketCap api to pull all coins again.
+Coin names and ticker symbols are now updated with coin data.
+
+[0.1.1]
+Added support for aritrary precision decimals.
+Updated appcompat version to 25.3.1.
+
+[0.1.0]
+Added setting to customise the display currency.
+
+[0.0.2]
+Fixed a bug where coins with the same ticker symbol would overwrite each other.
+Fixed a bug where coins on the homepage would occasionally show other coin's quantity data.
+
+[0.0.1]
+Initial launch.
